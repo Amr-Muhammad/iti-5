@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(18, 3, 37);
+    color: white;
+}
+
+.container {
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 52px;
+    font-style: italic;
+    text-shadow: 0px 0px 30px blueviolet;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: 100%;
+}
+
+input:not([type="radio"]) {
+    display: block;
+    width: 100%;
+    border: 1px solid balck;
+    padding: 5px 5px;
+    outline: none;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.filed-container {
+    margin-bottom: 15px;
+}
+
+.radioContainer {
+    margin-top: 10px;
+}
+
+
+label[for="male"] {
+    margin-right: 10px;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 10px 15px;
+    font-style: italic;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: blueviolet;
+    background-color: rgb(224, 224, 224);
+}
+
+input:focus {
+    box-shadow: 0px 0px 5px blueviolet;
+}
+
+.pTags{
+    font-size: 20px;
+    padding: 0px 30px;
+}
