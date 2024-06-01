@@ -5,6 +5,9 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #0b3235;
+    background-size: auto;
+    background-repeat: repeat;
 }
 
 .btnContainer {
@@ -47,14 +50,15 @@ h1 {
 
 
 /* -------------- */
-
+/* Third Problem */
 
 .memorygameContainer {
     display: flex;
     height: 100svh;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: nowrap;
+    flex-direction: column;
 }
 
 .memorygameContainer div {
@@ -63,8 +67,16 @@ h1 {
     justify-content: center;
     align-items: center;
     gap: 5px;
+    scale: 0.8;
 }
 
 .memorygameContainer img {
     width: 20%;
+}
+
+h1 {
+    top: 50px;
+    font-size: 70px;
+    font-style: italic;
+    margin: 0;
 }
