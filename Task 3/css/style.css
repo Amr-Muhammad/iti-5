@@ -47,36 +47,3 @@ h1 {
     filter: drop-shadow(10px 10px 10px #329aa1);
     margin: 0px 20px;
 }
-
-
-/* -------------- */
-/* Third Problem */
-
-.memorygameContainer {
-    display: flex;
-    height: 100svh;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: nowrap;
-    flex-direction: column;
-}
-
-.memorygameContainer div {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    scale: 0.8;
-}
-
-.memorygameContainer img {
-    width: 20%;
-}
-
-h1 {
-    top: 50px;
-    font-size: 70px;
-    font-style: italic;
-    margin: 0;
-}
